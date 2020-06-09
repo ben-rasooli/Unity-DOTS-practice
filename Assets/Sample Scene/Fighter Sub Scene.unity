@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -127,7 +127,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-36000
+  m_Name: pb_Mesh35620
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2027,6 +2027,8 @@ GameObject:
   - component: {fileID: 5842775284587703984}
   - component: {fileID: 3640163926834990013}
   - component: {fileID: 6694602388425920345}
+  - component: {fileID: 7861316157771767501}
+  - component: {fileID: 7861316157771767500}
   m_Layer: 0
   m_Name: Fighter
   m_TagString: Untagged
@@ -2034,6 +2036,40 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7861316157771767500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7861316157771767499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b45915a8e08a8145a230eeb5f2ef61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Direction:
+    x: 0
+    y: 0
+    z: 0
+  Speed: 10
+  TurnSpeed: 0
+--- !u!114 &7861316157771767501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7861316157771767499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730e21e804acd7f42a42a6d4f66e43ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpKey: 273
+  DownKey: 274
+  RightKey: 275
+  LeftKey: 276
 --- !u!33 &9036614096587468665
 MeshFilter:
   m_ObjectHideFlags: 0
